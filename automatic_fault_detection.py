@@ -1,5 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+
+os.makedirs("images", exist_ok=True)
 
 # ------------------------------------
 # Generate Synthetic Data
@@ -98,5 +101,7 @@ plt.grid(True)
 plt.legend()
 
 plt.xlim(0,150)
+
+plt.savefig("images/automatic_fault_detection.png", dpi=300)
 
 plt.show()

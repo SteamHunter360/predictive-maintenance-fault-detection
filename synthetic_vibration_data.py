@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
+os.makedirs("images", exist_ok=True)
 # Time settings
 sampling_rate = 1000
 duration = 2
@@ -39,5 +41,7 @@ plt.xlabel("Time (s)")
 plt.ylabel("Vibration Amplitude")
 plt.legend()
 plt.grid(True)
+
+plt.savefig("images/time_domain_vibration_signal.png", dpi=300)
 
 plt.show()

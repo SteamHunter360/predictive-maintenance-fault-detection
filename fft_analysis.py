@@ -1,5 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+
+os.makedirs("images", exist_ok=True)
+
+
 
 # ----------------------------
 # Generate Synthetic Signals
@@ -63,5 +68,7 @@ plt.ylabel("Amplitude")
 plt.grid(True)
 
 plt.xlim(0,150)
+
+plt.savefig("images/fft_frequency_spectrum.png", dpi=300)
 
 plt.show()
