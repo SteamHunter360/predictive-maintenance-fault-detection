@@ -64,3 +64,14 @@ print(confusion_matrix(y_test, predictions))
 
 print("\nClassification Report\n")
 print(classification_report(y_test, predictions))
+
+
+with open("model_results.txt", "w", encoding="utf-8") as file:
+    file.write("==============================\n")
+    file.write("Predictive Maintenance AI Model\n")
+    file.write("==============================\n\n")
+    file.write(f"Model Accuracy: {accuracy*100:.2f}%\n\n")
+    file.write("Confusion Matrix\n\n")
+    file.write(str(confusion_matrix(y_test, predictions)))
+    file.write("\n\nClassification Report\n\n")
+    file.write(classification_report(y_test, predictions))

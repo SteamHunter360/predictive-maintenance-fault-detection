@@ -1,0 +1,21 @@
+==============================
+Predictive Maintenance AI Model
+==============================
+
+Model Accuracy: 100.00%
+
+Confusion Matrix
+
+[[44  0]
+ [ 0 36]]
+
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        44
+           1       1.00      1.00      1.00        36
+
+    accuracy                           1.00        80
+   macro avg       1.00      1.00      1.00        80
+weighted avg       1.00      1.00      1.00        80
