@@ -44,3 +44,13 @@ python train_fault_classifier.py
 ### Automatic Fault Detection
 
 ![Automatic Fault Detection](images/automatic_fault_detection.png)
+
+## Model Performance
+
+The trained Random Forest classifier achieved strong performance on the synthetic vibration feature dataset.
+
+Detailed results are saved in:
+
+```text
+model_results.txt
+```
