@@ -30,3 +30,17 @@ python synthetic_vibration_data.py
 ```
 
 python train_fault_classifier.py
+
+## Example Results
+
+### Time-Domain Vibration Signal
+
+![Time-Domain Vibration Signal](images/time_domain_vibration_signal.png)
+
+### FFT Frequency Spectrum
+
+![FFT Frequency Spectrum](images/fft_frequency_spectrum.png)
+
+### Automatic Fault Detection
+
+![Automatic Fault Detection](images/automatic_fault_detection.png)
